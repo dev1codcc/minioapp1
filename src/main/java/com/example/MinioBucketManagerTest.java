@@ -85,7 +85,7 @@ public class MinioBucketManagerTest {
 
     private static void createAndUploadFiles(MinioBucketManager bucketManager) throws Exception {
         for (int i = 0; i < NUMBER_OF_FILES; i++) {
-            String fileName = generateRandomString(8) + ".txt";
+            String fileName = generateRandomString(5) + ".txt";
             String filePath = TEST_FILES_DIR + File.separator + fileName;
             createdFiles.add(fileName);
 
